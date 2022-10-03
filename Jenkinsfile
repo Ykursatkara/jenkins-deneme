@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage(' clone') {
+    stage('Message') {
       steps {
-        sh 'git clone'
+        echo 'kjh'
       }
     }
 
