@@ -9,7 +9,7 @@ pipeline {
 
     stage('clone') {
       steps {
-        sh 'git clone https://github.com/Ykursatkara/jenkins-deneme.git'
+        sh 'git clone https://github.com/Ykursatkara/jenkins-deneme.git /root/git-deneme/publish'
       }
     }
 
