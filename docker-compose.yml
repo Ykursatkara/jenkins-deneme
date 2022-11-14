@@ -6,6 +6,6 @@ services:
         container_name: jenkins_deneme
         restart: always
         ports:
-            - "1003:1003"
+            - "1004:1004"
         environment:
           TZ: "Europe/Istanbul"
